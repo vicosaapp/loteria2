@@ -1,0 +1,39 @@
+# Arquivos e pastas a serem ignorados pelo Git
+
+# Diretório de uploads (PDFs gerados)
+/uploads/*
+!/uploads/.gitkeep
+
+# Arquivos de configuração local
+.env
+config.local.php
+
+# Biblioteca TCPDF (deve ser instalada manualmente)
+/includes/tcpdf/*
+!/includes/tcpdf/.gitkeep
+
+# Arquivos de log
+*.log
+error_log
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*~
+
+# Dependências e diretórios de desenvolvimento
+/vendor/
+/node_modules/
+/.idea/
+/.vscode/
+/.DS_Store
+
+# Cache e arquivos compilados
+*.cache
+*.compiled
+
+# Arquivos sensíveis que não devem ser versionados
+*.key
+*.pem
+*.cert 
