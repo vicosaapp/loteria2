@@ -8,7 +8,7 @@
 require_once 'db.php';
 
 /**
- * Realiza a autenticação do usuário
+ * Realiza a autenticação do usuário 
  * @param string $username Nome de usuário
  * @param string $password Senha do usuário
  * @param string $tipo Tipo de usuário (admin, revendedor, usuario)
