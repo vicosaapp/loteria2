@@ -1,6 +1,6 @@
 <?php
 $host = 'localhost';
-$dbname = 'loteria2';
+$dbname = 'loteria2'; // Alterado aqui para loteria2
 $user = 'root';
 $pass = '';
 
